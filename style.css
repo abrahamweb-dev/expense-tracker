@@ -229,7 +229,9 @@ header h1 {
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .expense-item {
@@ -266,6 +268,7 @@ header h1 {
   font-size: 17px;
   flex-shrink: 0;
 }
+
 .expense-info {
   display: flex;
   flex-direction: column;
@@ -336,6 +339,7 @@ header h1 {
     opacity: 0;
     transform: translateY(8px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
